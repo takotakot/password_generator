@@ -1,7 +1,7 @@
 package com.github.takotakot.password.validation;
 
-import javax.validation.Validation;
-import javax.validation.Validator;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;

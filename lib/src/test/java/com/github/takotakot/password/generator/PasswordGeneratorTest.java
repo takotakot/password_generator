@@ -1,8 +1,8 @@
 package com.github.takotakot.password.generator;
 
 import java.util.Arrays;
-import javax.validation.Validation;
-import javax.validation.Validator;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
 import com.github.takotakot.password.validation.AlphabeticPassword;
 import com.github.takotakot.password.validation.AlphanumericPassword;
 import org.junit.jupiter.api.Assertions;
