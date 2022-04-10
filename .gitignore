@@ -1,6 +1,9 @@
 # From https://github.com/github/gitignore/blob/master/Gradle.gitignore
 .gradle
-/build/
+# /build/
+**/build/
+!src/**/build/
+!lib/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
