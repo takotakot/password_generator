@@ -1,5 +1,6 @@
 package com.github.takotakot.password.generator;
 
+import java.security.SecureRandom;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -7,6 +8,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class PasswordGenerator {
+
+    private static final SecureRandom secureRandom = new SecureRandom();
 
     public static String generateAlphanumeric(long count) {
         if (count < 0) {
@@ -67,7 +70,7 @@ public class PasswordGenerator {
     }
 
     private static String shuffledString(List<Character> chars) {
-        Collections.shuffle(chars);
+        Collections.shuffle(chars, secureRandom);
         return chars.stream()
                 .collect(StringBuilder::new, StringBuilder::append, StringBuilder::append)
                 .toString();
