@@ -32,7 +32,7 @@ dependencies {
     testImplementation("org.glassfish:jakarta.el:4.0.2")
 
     // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
-    testRuntimeOnly("org.hibernate.validator:hibernate-validator:7.0.4.Final")
+    testRuntimeOnly("org.hibernate.validator:hibernate-validator:8.0.1.Final")
 }
 
 tasks.named<Test>("test") {
