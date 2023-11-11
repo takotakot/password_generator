@@ -13,7 +13,7 @@ dependencies {
     // https://mvnrepository.com/artifact/javax.validation/validation-api
     implementation("javax.validation:validation-api:2.0.1.Final")
 
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
     // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
     // testRuntimeOnly("org.hibernate.validator:hibernate-validator:7.0.4.Final")// NG
     testRuntimeOnly("org.hibernate.validator:hibernate-validator:6.2.3.Final")// OK
@@ -26,7 +26,7 @@ dependencies {
     // https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
     implementation("jakarta.validation:jakarta.validation-api:3.0.0")
 
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 
     // https://mvnrepository.com/artifact/org.glassfish/jakarta.el
     testImplementation("org.glassfish:jakarta.el:4.0.2")
