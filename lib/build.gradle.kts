@@ -24,7 +24,7 @@ dependencies {
 
 dependencies {
     // https://mvnrepository.com/artifact/jakarta.validation/jakarta.validation-api
-    implementation("jakarta.validation:jakarta.validation-api:3.0.2")
+    implementation("jakarta.validation:jakarta.validation-api:3.1.0")
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
