@@ -34,6 +34,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
     testRuntimeOnly("org.hibernate.validator:hibernate-validator:9.0.1.Final")
+
+    // JUnit Platform launcher required at test runtime for some Gradle/JUnit setups
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.13.4")
 }
 
 tasks.named<Test>("test") {
