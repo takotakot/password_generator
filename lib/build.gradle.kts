@@ -36,7 +36,7 @@ dependencies {
     testRuntimeOnly("org.hibernate.validator:hibernate-validator:9.1.0.Final")
 
     // JUnit Platform launcher required at test runtime for some Gradle/JUnit setups
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.2")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.0.3")
 }
 
 tasks.named<Test>("test") {
