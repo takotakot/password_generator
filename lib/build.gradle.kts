@@ -33,7 +33,7 @@ dependencies {
     testImplementation("org.glassfish:jakarta.el:4.0.2")
 
     // https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator
-    testRuntimeOnly("org.hibernate.validator:hibernate-validator:9.1.0.Final")
+    testRuntimeOnly("org.hibernate.validator:hibernate-validator:9.1.1.Final")
 
     // JUnit Platform launcher required at test runtime for some Gradle/JUnit setups
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:6.1.0")
